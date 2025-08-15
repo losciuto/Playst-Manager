@@ -11,7 +11,7 @@ Playlist Manager è un'applicazione desktop in Python per la gestione e visualiz
 - Interfaccia per la gestione delle tabelle del database (eliminazione di più record in base a un campo selezionato)
 - Supporto a vari formati video: '.mp4', '.mkv', '.avi', '.mov', '.wmv', '.flv'
 
-## Requisiti
+## 🔧 Requisiti
 
 - Python 3.8+
 - Librerie indicate in `requirements.txt`
@@ -66,11 +66,41 @@ Esempio minimo:
 
 Il file .nfo deve avere lo stesso nome del video corrispondente.
 
+## 📂 Struttura del progetto
+
+```graphql
+PlaylistDue/
+│
+├── main_window.py        # Finestra principale dell'applicazione
+├──── db_manager.py         # Modulo interno per la gestione del database SQLite
+├──── nfo_parser.py         # Parser interno dei file .nfo
+├── assets/               # Eventuali immagini, icone, poster predefiniti
+├── videos.db        # Database SQLite generato automaticamente
+└── README.md             # Questo file
+```
+
+
+## 📊 Diagramma di flusso semplificato
+   ```mermaid
+   flowchart TD
+       A[Avvio Applicazione] --> B[Caricamento Playlist]
+       B --> C[Scansione cartelle video]
+       C --> D{NFO trovato?}
+       D -->|Sì| E[Parsing NFO e salvataggio nel DB]
+       D -->|No| F[Usa solo nome file]
+       E --> G[Visualizzazione GUI]
+       F --> G
+       G --> H[Filtri attivi?]
+       H -->|Sì| I[Query filtrata su DB]
+       H -->|No| J[Visualizza tutti]
+       I --> K[Mostra poster + info]
+       J --> K
+   ```
 ### Contributi
 
 Sono benvenuti contributi, segnalazioni di bug e nuove funzionalità!
 Apri una **Issue** o invia una **Pull Request** su GitHub.
 
-## Licenza
+## 📜 Licenza
 
 Questo progetto è distribuito sotto licenza [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html).
