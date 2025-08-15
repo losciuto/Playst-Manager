@@ -59,7 +59,7 @@ Il progetto utilizza un database SQLite (playlist.db) per archiviare i metadati 
 Il database contiene una singola tabella principale:
 
 Tabella videos
-![Database Schema](db_schema.png)
+
 [![Database Schema](db_schema.png)](db_schema.png)
 
 ## Note
@@ -116,7 +116,7 @@ PlaylistManager/
        J --> K
    ```
 ### Contributi
-
+**Contributo principale GPT5** per il resto...
 Sono benvenuti contributi, segnalazioni di bug e nuove funzionalità!
 Apri una **Issue** o invia una **Pull Request** su GitHub.
 
