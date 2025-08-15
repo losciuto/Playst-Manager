@@ -1,6 +1,6 @@
-# PlaylistDue
+# Playlist Manager
 
-PlaylistDue è un'applicazione desktop in Python per la gestione e visualizzazione di playlist video, con integrazione dei metadati dai file `.nfo` e un'interfaccia per la gestione completa del database.
+Playlist Manager è un'applicazione desktop in Python per la gestione e visualizzazione di playlist video, con integrazione dei metadati dai file `.nfo` stile Kodi e un'interfaccia per la gestione completa del database.
 
 ## Funzionalità principali
 
