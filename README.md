@@ -72,10 +72,10 @@ Il file .nfo deve avere lo stesso nome del video corrispondente.
 PlaylistDue/
 │
 ├── main_window.py        # Finestra principale dell'applicazione
-├──── db_manager.py         # Modulo interno per la gestione del database SQLite
-├──── nfo_parser.py         # Parser interno dei file .nfo
-├── assets/               # Eventuali immagini, icone, poster predefiniti
-├── videos.db        # Database SQLite generato automaticamente
+├──── db_manager            # Modulo interno per la gestione del database SQLite
+├──── nfo_parser            # Parser interno dei file .nfo
+├── requirements.txt      # i requisiti da installare
+├── videos.db             # Database SQLite generato automaticamente
 └── README.md             # Questo file
 ```
 
