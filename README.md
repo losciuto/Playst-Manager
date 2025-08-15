@@ -39,7 +39,7 @@ poster viewing, and SQLite database management.
 
 # Come usare l'applicazione
 
-##Clonare o scaricare il progetto
+## Clonare o scaricare il progetto
 
 git clone https://github.com/tuo-utente/PlaylistDue.git
 cd PlaylistDue
@@ -64,7 +64,7 @@ python main_window.py
 
 ## Esempio minimo:
 
-<movie>
+"<movie>
     <title>Il mio film</title>
     <year>2023</year>
     <genre>Azione</genre>
@@ -72,7 +72,7 @@ python main_window.py
     <director>Mario Rossi</director>
     <plot>Una trama avvincente.</plot>
     <thumb>poster.jpg</thumb>
-</movie>
+</movie>"
 
 - **Il file .nfo deve avere lo stesso nome del video corrispondente.**
 
