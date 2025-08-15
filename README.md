@@ -51,7 +51,7 @@ poster viewing, and SQLite database management.
   cd PlaylistDue
 
 
-
+`
 # Avviare l'applicazione
 
 python main_window.py
