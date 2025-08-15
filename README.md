@@ -51,10 +51,9 @@ poster viewing, and SQLite database management.
   cd PlaylistDue
 
 
-`
-# Avviare l'applicazione
-
-python main_window.py
+- Avviare l'applicazione
+  ```bash 
+  python (o python3) main_window.py
 
 # Funzionamento base
 
@@ -67,7 +66,7 @@ python main_window.py
 # Formato NFO supportato
 
 ## Esempio minimo:
-
+```xml
 "<movie>
     <title>Il mio film</title>
     <year>2023</year>
