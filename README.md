@@ -13,16 +13,15 @@ Playlist Manager è un'applicazione desktop in Python per la gestione e visualiz
 
 ## 🔧 Requisiti
 
-- Python 3.8+
+- Python 3.8+ (andrà installato se non già fatto)
 - Librerie indicate in `requirements.txt`
-
 
 ## Installazione
 
 1. Clona o scarica questo repository
    ```bash
-   git clone https://github.com/tuo-utente/PlaylistDue.git
-   cd PlaylistDue
+   git clone https://github.com/tuo-utente/Playlist-Manager.git
+   cd Playlist-Manager
     ```
 3. Installa i requisiti:
    ```bash
@@ -35,6 +34,11 @@ Playlist Manager è un'applicazione desktop in Python per la gestione e visualiz
 Avvia l'app con:
 ```bash
 python main_window.py
+```
+oppure
+
+```bash
+python3 main_window.py
 ```
 
 ### Pulsanti principali
@@ -69,7 +73,7 @@ Il file .nfo deve avere lo stesso nome del video corrispondente.
 ## 📂 Struttura del progetto
 
 ```graphql
-PlaylistDue/
+PlaylistManager/
 │
 ├── main_window.py        # Finestra principale dell'applicazione
 ├──── db_manager            # Modulo interno per la gestione del database SQLite
