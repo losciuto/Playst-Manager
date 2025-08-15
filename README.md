@@ -38,7 +38,7 @@ poster viewing, and SQLite database management.
   pip install pillow
 
 
-## Installare le dipendenze
+- oppure **Installare le dipendenze**
   ```bash
 pip install -r requirements.txt
 
@@ -46,7 +46,7 @@ pip install -r requirements.txt
 # Come usare l'applicazione
 
 ## Clonare o scaricare il progetto
-  ```bash
+  `
 git clone https://github.com/tuo-utente/PlaylistDue.git
 cd PlaylistDue
 
