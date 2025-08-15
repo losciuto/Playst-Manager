@@ -40,7 +40,7 @@ poster viewing, and SQLite database management.
 
 - oppure **Installare le dipendenze**
   ```bash
-pip install -r requirements.txt
+  pip install -r requirements.txt
 
 
 # Come usare l'applicazione
