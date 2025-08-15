@@ -37,18 +37,49 @@ poster viewing, and SQLite database management.
   ```bash
   pip install pillow
 
-## Struttura del progetto
+# Come usare l'applicazione
 
-  Playlist Manager/
-│
-├── main_window.py        # Finestra principale dell'applicazione
-|                         # per la gestione del database SQLite
-|                         # il Parser dei file .nfo
-├── assets/               # Eventuali immagini, icone, poster predefiniti
-├── playlist.db           # Database SQLite generato automaticamente
-└── README.md             # Questo file
+##Clonare o scaricare il progetto
 
+git clone https://github.com/tuo-utente/PlaylistDue.git
+cd PlaylistDue
 
+# Installare le dipendenze
+
+pip install -r requirements.txt
+
+# Avviare l'applicazione
+
+python main_window.py
+
+# Funzionamento base
+
+- Usa il pulsante "Scansiona cartella" per indicare una directory contenente video + .nfo.
+- Filtra i risultati usando i menu a tendina.
+- Crea playlist con i video selezionati.
+- Visualizza i poster e la trama direttamente dalla GUI.
+- Accedi alla Gestione Database dal pulsante dedicato.
+
+# Formato NFO supportato
+
+## Esempio minimo:
+
+<movie>
+    <title>Il mio film</title>
+    <year>2023</year>
+    <genre>Azione</genre>
+    <genre>Avventura</genre>
+    <director>Mario Rossi</director>
+    <plot>Una trama avvincente.</plot>
+    <thumb>poster.jpg</thumb>
+</movie>
+
+- **Il file .nfo deve avere lo stesso nome del video corrispondente.**
+
+# Contributi
+
+Sono benvenuti contributi, segnalazioni di bug e nuove funzionalità!
+Apri una **Issue** o invia una **Pull Request** su GitHub.
 
 ## Licenza
 Distribuito sotto GPL v3.
