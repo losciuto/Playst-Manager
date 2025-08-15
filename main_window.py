@@ -14,7 +14,7 @@ import xml.etree.ElementTree as ET
 import csv
 
 # DB nella stessa cartella del codice
-DB_FILENAME = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'kodi_videos.db')
+DB_FILENAME = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'videos.db')
 VIDEO_EXTENSIONS = ['.mp4', '.mkv', '.avi', '.mov', '.wmv', '.flv']
 
 
