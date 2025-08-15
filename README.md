@@ -116,7 +116,7 @@ PlaylistManager/
        J --> K
    ```
 ### Contributi
-**Contributo principale GPT5** per il resto...
+**Contributo principale ChatGPT5** per il resto...
 Sono benvenuti contributi, segnalazioni di bug e nuove funzionalità!
 Apri una **Issue** o invia una **Pull Request** su GitHub.
 
