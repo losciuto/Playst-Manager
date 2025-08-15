@@ -46,9 +46,9 @@ poster viewing, and SQLite database management.
 # Come usare l'applicazione
 
 ## Clonare o scaricare il progetto
-  `
-git clone https://github.com/tuo-utente/PlaylistDue.git
-cd PlaylistDue
+  ```bash  `
+  git clone https://github.com/tuo-utente/PlaylistDue.git
+  cd PlaylistDue
 
 
 
