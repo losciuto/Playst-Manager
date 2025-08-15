@@ -1,8 +1,8 @@
-# Playlist Manager
+# 🎬 Playlist Manager
 
 Playlist Manager è un'applicazione desktop in Python per la gestione e visualizzazione di playlist video, con integrazione dei metadati dai file `.nfo` stile Kodi e un'interfaccia per la gestione completa del database.
 
-## Funzionalità principali
+## 🚀 Funzionalità principali
 
 - Caricamento automatico dei metadati dai file `.nfo`
 - Visualizzazione di poster e dettagli video
