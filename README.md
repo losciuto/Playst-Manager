@@ -53,6 +53,29 @@ python3 main_window.py
    - Eliminare più record in base a un campo selezionato
 - Nessuna funzione di inserimento manuale (solo gestione ed eliminazione)
 
+### Struttura del Database
+
+Il progetto utilizza un database SQLite (playlist.db) per archiviare i metadati dei video.
+Il database contiene una singola tabella principale:
+
+Tabella videos
+Campo	Tipo	Descrizione
+id	INTEGER PRIMARY KEY AUTOINCREMENT	Identificativo univoco del video.
+file_path	TEXT UNIQUE	Percorso completo del file video.
+title	TEXT	Titolo del video.
+genres	TEXT	Generi, separati da virgola.
+year	TEXT	Anno di uscita.
+directors	TEXT	Nomi dei registi, separati da virgola.
+plot	TEXT	Trama o descrizione.
+poster	TEXT	Percorso al file immagine del poster.
+Note
+
+[![Database Schema](db_schema.png)](db_schema.png)
+
+- I dati vengono estratti automaticamente da file .nfo quando presenti, o inseriti tramite scansione cartelle.
+- Il campo file_path è univoco: se un video già esiste, le informazioni vengono aggiornate.
+- I generi e i registi sono memorizzati come stringhe di testo, ma filtrabili nell’interfaccia grafica.
+
 ### Formato NFO supportato
 
 Esempio minimo:
