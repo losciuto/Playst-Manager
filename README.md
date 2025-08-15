@@ -59,7 +59,7 @@ Il progetto utilizza un database SQLite (playlist.db) per archiviare i metadati 
 Il database contiene una singola tabella principale:
 
 Tabella videos
-
+![Database Schema](db_schema.png)
 [![Database Schema](db_schema.png)](db_schema.png)
 
 ## Note
