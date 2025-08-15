@@ -37,11 +37,11 @@ poster viewing, and SQLite database management.
   ```bash
   pip install pillow
 
-  oppure
 
 ## Installare le dipendenze
   ```bash
 pip install -r requirements.txt
+
 
 # Come usare l'applicazione
 
